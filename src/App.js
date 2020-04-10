@@ -7,17 +7,23 @@ import Header from './Components/Header/Header';
 import House from './Components/House/House';
 import Wizard from './Components/Wizard/Wizard';
 
-function App() {
+class App extends React.Component {
+
+  render(){
   return (
     <div className="App">
       <header className="App-header">
-      <div>Dashboard</div>
+      <div>Dashboard
+
+       <div>House</div>
+      </div>
       <div>Header</div>
-      <div>House</div>
+      
       <div>Wizard</div>
       </header>
     </div>
-  );
+  )
+  }
 }
 
 export default App;
